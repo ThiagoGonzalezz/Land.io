@@ -12,7 +12,7 @@ object norte {
 }
 
 object sur {	
-	method desplazar(jugador){  //no es error
+	method desplazar(jugador){  
 		if(jugador.position().y() > 2) jugador.moverSur()
 	}	
 	method opuesto() = norte	

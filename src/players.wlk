@@ -24,17 +24,19 @@ object jugadorRojo{
 	method moverNorte() {
 		position = position.up(1)
 		}
+		
 	method moverSur() {
 		position = position.down(1)
 	}
+	
 	method moverOeste() {
 		position = position.left(1)
 	}
+	
 	method moverEste() {
 		position = position.right(1)
 	}
 	
-	//No hay ningun error
 	method mirar(direc){
 		if(mira != direc &&  direc != mira.opuesto() && puedeMoverse){ 
 			mira = direc
